@@ -1,10 +1,10 @@
-/* --------------------------- Les commentaires --------------------------- */
+/* --------------------------- Les Commentaires --------------------------- */
 
 // Un commentaire sur une ligne en Javascript
 /* 
     Un commentaire multiligne
     en Javascript 
- */
+*/
 
 /* --------------------------- Affichage --------------------------- */
 
@@ -39,7 +39,7 @@ console.log(affectation);
 let nom = 'EDJEKOUANE';
 let prenom = 'Rachid';
 
-// Concatenation (Afficher du texte et des variables)
+// Concaténation (Afficher du texte et des variables)
 console.log("Je m'appelle " + nom + ' ' + prenom);
 
 // Déclarer une chaine de caractère, un nombre, booléen
@@ -53,7 +53,7 @@ let resultat = number * decimal;
 console.log(resultat);
 
 // Comment utiliser les guillemets dans une chaine de caractère
-let message = 'J\'apprend l\'algorithmie';
+let message = "J'apprend l'algorithmie";
 console.log(message);
 
 let unNouveauMessage = "J'apprend encore l'algorithmie";
@@ -110,7 +110,7 @@ if (age >= 18) {
     console.log('tu es mineur');
 }
 
-/* --------------------------- Les boucles --------------------------- */
+/* --------------------------- Les Boucles --------------------------- */
 
 // Boucle à itérations définies (for)
 for (let i = 0; i < 5; i++) {
@@ -130,16 +130,16 @@ console.log('Enfin fini de tourner en rond!');
 // Boucle Tant Que (while)
 let majeur = prompt('quel ages as-tu?');
 while (majeur < 18) {
-    majeur = prompt('Tu es mineur, tu ne peux pas rentrer!');
+    majeur = prompt('Tu es mineur, tu ne peux pas rentrer! (Mens sur ton age)');
 }
 
-/* --------------------------- Les fonctions --------------------------- */
+/* --------------------------- Les Fonctions --------------------------- */
 
 function add(x, y) {
     return x + y;
 }
 
-// Une fonction n'est executé que lorsqu'elle est appelé
+// Une fonction n'est executée que lorsqu'elle est appelée
 let result = add(7, 3);
 
 // Portée des variables dans une fonction
@@ -152,8 +152,8 @@ function test() {
 let res = test();
 console.log(res);
 
-// Une variable déclaré dans une fonction n'est pas accessible en dehors de sa fonction
-// Une erreur est généré en tentant de l'afficher
+// Une variable déclarée dans une fonction n'est pas accessible en dehors de sa fonction
+// Une erreur est générée en tentant de l'afficher
 console.log(value);
 
 /* --------------------------- Les tableaux --------------------------- */
@@ -163,4 +163,3 @@ let vegetables = ['pain', 'lait', 'fromage', 'houmous', 'nouilles'];
 // On peut afficher une case d'un tableau via son indice
 // ! Attention l'indice d'un tableau commence à 0
 console.log(vegetables[4]);
-
