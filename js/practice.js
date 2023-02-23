@@ -1,4 +1,4 @@
-/*  --------------------------- Exercices d'Algorithmie ---------------------------*/
+/*  --------------------------- Exercices d'Algorithmique ---------------------------*/
 
 // Algorithme de bienvenue qui affiche le nom et l'âge de l'utilisateur
 

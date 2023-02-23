@@ -1,4 +1,4 @@
-/*  --------------------------- Exercices d'Algorithmie ---------------------------*/
+/*  --------------------------- Correction d'Algorithmique ---------------------------*/
 
 // Algorithme de bienvenue qui affiche le nom et l'âge de l'utilisateur
 let firstname = 'Rachid';
